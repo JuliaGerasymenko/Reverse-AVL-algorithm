@@ -1,0 +1,25 @@
+{
+  "name": "autobalancing-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Coursework.js",
+  "scripts": {
+    "test": "eslint . && ./1.js",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaGerasymenko/Coursework.git"
+  },
+  "author": "JuliaGerasymenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliaGerasymenko/Coursework/issues"
+  },
+  "homepage": "https://github.com/JuliaGerasymenko/Coursework#readme",
+  "dependencies": {
+    "metatests": "^0.7.1",
+    "diff": ">=3.5.0"
+  }
+}
